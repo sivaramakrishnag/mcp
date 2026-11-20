@@ -20,10 +20,11 @@ docs = {
 # TODO: Write a prompt to summarize a doc
 
 
+
 from pydantic import Field
 from mcp.server.fastmcp.prompts import base
 
-
+#Tool to read a document
 @mcp.tool(
     name="read_doc_contents",
     description="Read the contents of a document and return it as a string.",
